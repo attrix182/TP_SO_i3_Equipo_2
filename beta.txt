@@ -64,3 +64,5 @@ Adaptador de t▒nel Teredo Tunneling Pseudo-Interface:
    Direcci▒n IPv6 . . . . . . . . . . : 2001:0:2877:7aa:d6:977:41ec:9f27
    V▒nculo: direcci▒n IPv6 local. . . : fe80::d6:977:41ec:9f27%9
    Puerta de enlace predeterminada . . . . . :
+
+11:15
