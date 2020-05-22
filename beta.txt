@@ -20,3 +20,47 @@ lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
 
 
 11:06
+
+Segota Ezequiel
+
+Hago ipconfig para no prender la VM=
+
+Configuraci▒n IP de Windows
+
+
+Adaptador de Ethernet Radmin VPN:
+
+   Sufijo DNS espec▒fico para la conexi▒n. . :
+   Direcci▒n IPv6 . . . . . . . . . . : fdfd::1a64:ce7
+   V▒nculo: direcci▒n IPv6 local. . . : fe80::45e6:5b9:fa82:a197%2
+   Direcci▒n IPv4. . . . . . . . . . . . . . : 26.100.12.231
+   M▒scara de subred . . . . . . . . . . . . : 255.0.0.0
+   Puerta de enlace predeterminada . . . . . : 26.0.0.1
+
+Adaptador de Ethernet Hamachi:
+
+   Sufijo DNS espec▒fico para la conexi▒n. . :
+   Puerta de enlace predeterminada . . . . . :
+
+Adaptador de Ethernet Ethernet:
+
+   Sufijo DNS espec▒fico para la conexi▒n. . : fibertel.com.ar
+   V▒nculo: direcci▒n IPv6 local. . . : fe80::6916:754e:9c9f:55da%10
+   Direcci▒n IPv4. . . . . . . . . . . . . . : 192.168.0.10
+   M▒scara de subred . . . . . . . . . . . . : 255.255.255.0
+   Puerta de enlace predeterminada . . . . . : 192.168.0.1
+
+Adaptador de Ethernet VirtualBox Host-Only Network:
+
+   Sufijo DNS espec▒fico para la conexi▒n. . :
+   V▒nculo: direcci▒n IPv6 local. . . : fe80::9c51:885d:3c84:b3eb%8
+   Direcci▒n IPv4. . . . . . . . . . . . . . : 192.168.56.1
+   M▒scara de subred . . . . . . . . . . . . : 255.255.255.0
+   Puerta de enlace predeterminada . . . . . :
+
+Adaptador de t▒nel Teredo Tunneling Pseudo-Interface:
+
+   Sufijo DNS espec▒fico para la conexi▒n. . :
+   Direcci▒n IPv6 . . . . . . . . . . : 2001:0:2877:7aa:d6:977:41ec:9f27
+   V▒nculo: direcci▒n IPv6 local. . . : fe80::d6:977:41ec:9f27%9
+   Puerta de enlace predeterminada . . . . . :
