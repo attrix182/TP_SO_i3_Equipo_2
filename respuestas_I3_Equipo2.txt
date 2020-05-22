@@ -10,7 +10,7 @@ Si
 
 
 c-¿La ramas creadas por BETA y GAMMA quedan con datos actualizados?
-
+Quedan con los datos que ellos sube, pero no con lo que hay en el master
 
 d-¿Detalle los problemas que tuvieron al hacer el merge?
 
