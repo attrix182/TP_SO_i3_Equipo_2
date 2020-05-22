@@ -65,4 +65,22 @@ Adaptador de t▒nel Teredo Tunneling Pseudo-Interface:
    V▒nculo: direcci▒n IPv6 local. . . : fe80::d6:977:41ec:9f27%9
    Puerta de enlace predeterminada . . . . . :
 
-11:15
+11:15Matias Sandoval - 11 26 - enp0s3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.40  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet6 2802:8010:210c:1300:21ec:6343:ce23:8ce8  prefixlen 64  scopeid 0x0<global>
+        inet6 fe80::6e32:81a2:15a2:cbe5  prefixlen 64  scopeid 0x20<link>
+        inet6 2802:8010:210c:1300:376b:57aa:b8c4:d95  prefixlen 64  scopeid 0x0<global>
+        ether 08:00:27:b8:b2:e5  txqueuelen 1000  (Ethernet)
+        RX packets 11933  bytes 13009449 (13.0 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 7250  bytes 800753 (800.7 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Bucle local)
+        RX packets 684  bytes 67256 (67.2 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 684  bytes 67256 (67.2 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
