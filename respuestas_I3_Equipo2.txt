@@ -1,0 +1,144 @@
+Ezequiel segota - Matias sandoval - Sinisterra luciano
+
+
+a-¿Como Queda El master después de estos cambios?
+
+EL master queda igual que la branch que creo beta, por el merge, sumado a lo que ya estaba previamente en el master
+
+b-¿Beta pudo ver todos los cambios que se realizaron?
+Si
+
+
+c-¿La ramas creadas por BETA y GAMMA quedan con datos actualizados?
+
+
+d-¿Detalle los problemas que tuvieron al hacer el merge?
+
+al escribir git merge, master no existia, asi que hubo que crear con git branch master 
+
+
+Matias Sandoval 
+
+
+
+   86  git clone --single-branch --branch Gamma https://github.com/attrix182/TP_SO_i3_Equipo_2
+   87  echo "Matias Sandoval -  192.168.56.1 - 10:24" >> C:\Users\Matías\Desktop\tp3\TP_SO_i3_Equipo_2/"datos.txt"
+   88  echo "Matias Sandoval -  192.168.56.1 - 10:24" >> C:\Users\Matías\Desktop\tp3\TP_SO_i3_Equipo_2/datos
+   89  echo "Matias Sandoval -  192.168.56.1 - 10:24" >> /TP_SO_i3_Equipo_2/datos.txt
+   90  cd TP_SO_i3_Equipo_2
+   91  echo "Matias Sandoval -  192.168.56.1 - 10:24" >> datos.txt
+   92  echo "processor: 0
+   93  vendor_id: AuthenticAMD
+   94  cpu family: 23
+   95  model: 1
+   96  model name: AMD Ryzen 3 1200 Quad-Core Processor
+   97  stepping: 1
+   98  microcode: 0x6000626
+   99  cpu MHz: 3094.188
+  100  cache size: 512 KB
+  101  physical id: 0
+  102  siblings: 1
+  103  core id: 0
+  104  cpu cores: 1
+  105  apicid: 0
+  106  initial apicid: 0
+  107  fpu: yes
+  108  fpu_exception: yes
+  109  cpuid level: 13
+  110  wp: yes
+  111  flags: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov
+  112  pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt rdtscp lm cons
+  113  tant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqd
+  114  q monitor ssse3 cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx rdrand hype" > "CPUAlfa.txt"
+  115  git add .
+  116  git commit -m "Paso 3 ALFA"
+  117  git push -u origin Gamma
+  118  git clone --single-branch --branch Gamma https://github.com/attrix182/TP_SO_i3_Equipo_2
+  119  git clone --single-branch --branch sinisterra https://github.com/attrix182/TP_SO_i3_Equipo_2
+  120  cd TP_SO_i3_Equipo_2
+  121  echo "Matias Sandoval - 11 26 - enp0s3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.40  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet6 2802:8010:210c:1300:21ec:6343:ce23:8ce8  prefixlen 64  scopeid 0x0<global>
+        inet6 fe80::6e32:81a2:15a2:cbe5  prefixlen 64  scopeid 0x20<link>
+        inet6 2802:8010:210c:1300:376b:57aa:b8c4:d95  prefixlen 64  scopeid 0x0<global>
+        ether 08:00:27:b8:b2:e5  txqueuelen 1000  (Ethernet)
+        RX packets 11933  bytes 13009449 (13.0 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 7250  bytes 800753 (800.7 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Bucle local)
+        RX packets 684  bytes 67256 (67.2 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 684  bytes 67256 (67.2 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0" >> "beta.txt"
+  122  git add .
+  123  git commit -m "Paso 6 ALFA hecho"
+  124  git push
+
+
+
+Sinisterra luciano
+
+  359  sudo apt install git
+  360  git
+  367  nano a.txt
+  368  /proc/cpu > ccc.txt
+  369  cd Documentos/
+  370  mkdir so
+  371  cd so/
+  372  git clone --single-branch --branch Gamma https://github.com/attrix182/TP_SO_i3_Equipo_2
+  373  ls
+  374  cd TP_SO_i3_Equipo_2/
+  375  nano datos.txt 
+  379  cd Documentos/
+  380  cd so
+  381  cd TP_SO_i3_Equipo_2/
+  382  LS
+  383  ls
+  384  more /proc/cpuinfo
+  385  echo more /proc/cpuinfo
+  386  touch CPUBeta.txt
+  387  nano CPUBeta.txt 
+  388  git push -u origin Gamma
+  389  git add .
+  390  git commit -m "cpuBeta"
+  391  git config --global user.email lucho.bernal@hotmail.com
+  392  git config --global user.name "attrix182"
+  393  git config --global user.email "lucho.bernal@hotmail.com"
+  394  git commit -m "cpuBeta"
+  395  git push -u origin Gamma
+  396  git branch sinisterra
+  397  git push -u origin sinisterra
+  399  ifconfig 
+  400  nano beta.txt 
+  401  git add .
+  402  git commit -m "branch beta"
+  403  git push -u origin sinisterra
+  404  git branch
+  405  git log
+  406  git reset
+  407  git reset HEAD~1
+  408  git log
+  409  git status
+  410  git push origin Gamma --force
+  411  git status
+  412  git checkout sinisterra
+  413  git status
+  414  git add .
+  415* git commit -m "beta archivo
+  416  git push -u origin sinisterra
+  417  git checkout master
+  418  git branch master
+  419  git branch
+  420  git checkout master
+  421  git fetch origin 
+  422  git pull origin master
+  423  git merge sinisterra 
+  424  git push -u origin master
+  425  ls
+  426  touch respuestas_I3_Equipo2.txt
+  427  nano respuestas_I3_Equipo2.txt 
